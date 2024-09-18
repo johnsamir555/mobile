@@ -190,7 +190,7 @@ h1 {
       }
     }
 
-    .nav-item {
+    .nav-item {      
       &:hover {
         .dropdown-menu {
           top: 100%;
@@ -457,6 +457,17 @@ h1 {
 }
 
 /* End Install_Programs*/
+
+/* Start Footer */
+.footer {
+  padding-top: 144px !important;
+  padding-bottom: 0 !important;
+  background-color: var(--primary);
+  background-image: url(../img/bg-top.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+/* End Footer */
 /* Start Top Button */
 .top {
   position: fixed;
@@ -474,41 +485,3 @@ h1 {
 }
 
 /* End Top Button */
-/* Start Footer */
-.footer {
-  padding-top: 144px !important;
-  padding-bottom: 0 !important;
-  background-color: var(--primary);
-  background-image: url(../img/bg-top.png);
-  background-position: center top;
-  background-repeat: no-repeat;
-
-  .main {
-    .svg-inline--fa {
-      color: #fff !important;
-    }
-
-    &:hover {
-      background-color: #fff !important;
-
-      .svg-inline--fa {
-        color: var(--primary) !important;
-      }
-    }
-  }
-
-  .btn-link {
-    color: #fff;
-    text-decoration: none;
-    display: block !important;
-    text-align-last: right;
-
-    &::before {
-      content: "\f105";
-      font-family: "Font Awesome 6 Free";
-      font-weight: 900;
-      margin-right: 10px;
-    }
-  }
-}
-/* End Footer */

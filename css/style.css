@@ -375,6 +375,17 @@ h1 {
 }
 
 /* End Install_Programs*/
+/* Start Footer */
+.footer {
+  padding-top: 144px !important;
+  padding-bottom: 0 !important;
+  background-color: var(--primary);
+  background-image: url(../img/bg-top.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/* End Footer */
 /* Start Top Button */
 .top {
   position: fixed;
@@ -391,37 +402,4 @@ h1 {
   z-index: 50;
 }
 
-/* End Top Button */
-/* Start Footer */
-.footer {
-  padding-top: 144px !important;
-  padding-bottom: 0 !important;
-  background-color: var(--primary);
-  background-image: url(../img/bg-top.png);
-  background-position: center top;
-  background-repeat: no-repeat;
-}
-.footer .main .svg-inline--fa {
-  color: #fff !important;
-}
-.footer .main:hover {
-  background-color: #fff !important;
-}
-.footer .main:hover .svg-inline--fa {
-  color: var(--primary) !important;
-}
-.footer .btn-link {
-  color: #fff;
-  text-decoration: none;
-  display: block !important;
-  -moz-text-align-last: right;
-       text-align-last: right;
-}
-.footer .btn-link::before {
-  content: "\f105";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  margin-right: 10px;
-}
-
-/* End Footer *//*# sourceMappingURL=style.css.map */
+/* End Top Button *//*# sourceMappingURL=style.css.map */
