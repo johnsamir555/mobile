@@ -159,7 +159,7 @@ h1 {
 }
 .navbar .navbar-collapse .dropdown-menu .dropdown-item:hover {
   color: var(--secondary) !important;
-  background-color: white;
+  background-color: white !important;
 }
 
 @media only screen and (max-width: 991px) {

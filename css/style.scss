@@ -213,7 +213,7 @@ h1 {
       .dropdown-item{
         &:hover{
           color: var(--secondary) !important;
-          background-color: white;
+          background-color: white !important;
         }
       }
     }
