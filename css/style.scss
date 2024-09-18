@@ -15,7 +15,6 @@
   -o-box-sizing: border-box;
   box-sizing: border-box;
   direction: rtl !important;
-
 }
 
 html,
@@ -93,7 +92,7 @@ h1 {
     }
   }
 
-  +h1 {
+  + h1 {
     text-transform: capitalize !important;
     font-weight: 700 !important;
   }
@@ -186,13 +185,12 @@ h1 {
           font-size: 10px;
           font-weight: 700;
           vertical-align: middle;
-          margin-right: 8px;
+          margin-right: 0px;
         }
       }
     }
 
     .nav-item {
-
       &:hover {
         .dropdown-menu {
           top: 100%;
@@ -212,6 +210,12 @@ h1 {
       opacity: 0;
       visibility: hidden;
       transition: 0.5s;
+      .dropdown-item{
+        &:hover{
+          color: var(--secondary) !important;
+          background-color: white;
+        }
+      }
     }
   }
 }
@@ -418,7 +422,6 @@ h1 {
         color: #fff;
       }
     }
-
   }
 
   .image-box {
@@ -429,20 +432,20 @@ h1 {
 /* End Terms */
 /* Start Install_Programs*/
 .install_programs {
-  >h1 {
+  > h1 {
     font-weight: 700 !important;
   }
 
   .accordion {
-      .accordion-header{
-        .accordion-button{
-          justify-content: space-between !important;
-          &::after{
-            margin-left: 0px !important;
-          }
+    .accordion-header {
+      .accordion-button {
+        justify-content: space-between !important;
+        &::after {
+          margin-left: 0px !important;
         }
       }
-      .accordion-body {
+    }
+    .accordion-body {
       .card {
         width: 80%;
         margin: auto;
@@ -481,77 +484,30 @@ h1 {
   background-repeat: no-repeat;
 
   .main {
-    .section-title {
+    .svg-inline--fa {
       color: #fff !important;
-      justify-content: start !important;
-
-      span {
-        margin-right: 25px !important;
-        margin-right: auto !important;
-        background-color: #fff !important;
-
-        &:after {
-          background-color: #fff !important;
-          right: -20px !important;
-        }
-      }
     }
 
-    .btn-social {
-      margin-right: 5px;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      background-color: transparent;
+    &:hover {
+      background-color: #fff !important;
 
       .svg-inline--fa {
-        color: #fff !important;
-      }
-
-      &:hover {
-        background-color: #fff !important;
-
-        .svg-inline--fa {
-          color: var(--primary) !important;
-        }
-      }
-    }
-
-    .btn-link {
-      color: #fff;
-      text-decoration: none;
-      display: block !important;
-      text-align-last: right;
-
-      &::before {
-        content: "\f105";
-        font-family: "Font Awesome 6 Free";
-        font-weight: 900;
-        margin-right: 10px;
+        color: var(--primary) !important;
       }
     }
   }
 
-  .copyright {
-    a {
-      font-size: 14px !important;
-      font-weight: 400;
-      line-height: 21px;
-      color: #fff !important;
+  .btn-link {
+    color: #fff;
+    text-decoration: none;
+    display: block !important;
+    text-align-last: right;
 
-      &:hover {
-        color: var(--secondary) !important;
-      }
-    }
-
-    .footer-menu {
-      a {
-        margin-right: 15px !important;
-        padding-right: 15px !important;
-      }
+    &::before {
+      content: "\f105";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      margin-right: 10px;
     }
   }
 }

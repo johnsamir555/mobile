@@ -139,7 +139,7 @@ h1 {
   font-size: 10px;
   font-weight: 700;
   vertical-align: middle;
-  margin-right: 8px;
+  margin-right: 0px;
 }
 .navbar .navbar-collapse .nav-item:hover .dropdown-menu {
   top: 100%;
@@ -156,6 +156,10 @@ h1 {
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
+}
+.navbar .navbar-collapse .dropdown-menu .dropdown-item:hover {
+  color: var(--secondary) !important;
+  background-color: white;
 }
 
 @media only screen and (max-width: 991px) {
@@ -397,63 +401,27 @@ h1 {
   background-position: center top;
   background-repeat: no-repeat;
 }
-.footer .main .section-title {
-  color: #fff !important;
-  justify-content: start !important;
-}
-.footer .main .section-title span {
-  margin-right: 25px !important;
-  margin-right: auto !important;
-  background-color: #fff !important;
-}
-.footer .main .section-title span:after {
-  background-color: #fff !important;
-  right: -20px !important;
-}
-.footer .main .btn-social {
-  margin-right: 5px;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: transparent;
-}
-.footer .main .btn-social .svg-inline--fa {
+.footer .main .svg-inline--fa {
   color: #fff !important;
 }
-.footer .main .btn-social:hover {
+.footer .main:hover {
   background-color: #fff !important;
 }
-.footer .main .btn-social:hover .svg-inline--fa {
+.footer .main:hover .svg-inline--fa {
   color: var(--primary) !important;
 }
-.footer .main .btn-link {
+.footer .btn-link {
   color: #fff;
   text-decoration: none;
   display: block !important;
   -moz-text-align-last: right;
        text-align-last: right;
 }
-.footer .main .btn-link::before {
+.footer .btn-link::before {
   content: "\f105";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   margin-right: 10px;
-}
-.footer .copyright a {
-  font-size: 14px !important;
-  font-weight: 400;
-  line-height: 21px;
-  color: #fff !important;
-}
-.footer .copyright a:hover {
-  color: var(--secondary) !important;
-}
-.footer .copyright .footer-menu a {
-  margin-right: 15px !important;
-  padding-right: 15px !important;
 }
 
 /* End Footer *//*# sourceMappingURL=style.css.map */
